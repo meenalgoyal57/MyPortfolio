@@ -1,0 +1,62 @@
+[
+  {
+    "id": "rev-jfp",
+    "name": "Rajesh Goyal",
+    "role": "Owner & Managing Director",
+    "company": "Jagdamba Furniture Palace",
+    "projectType": "Full Stack Business Platform",
+    "rating": 5,
+    "date": "Recent",
+    "message": "Meenal designed and developed our entire e-commerce web platform (jagdamba-palace.vercel.app) along with our custom admin dashboard. The direct WhatsApp product enquiries and fast loading speeds significantly boosted our orders. Exceptional work!",
+    "verified": true,
+    "avatarColor": "#7c3aed"
+  },
+  {
+    "id": "rev-pegasys",
+    "name": "Dr. Vikram Sharma",
+    "role": "Head of Regulatory Strategy",
+    "company": "Pegasys Healthcare Consulting",
+    "projectType": "Enterprise Web Platform",
+    "rating": 5,
+    "date": "1 week ago",
+    "message": "Meenal built our Pegasys MedTech consulting platform (pegasys-health-care-consultancy.vercel.app) from the ground up using Next.js and TypeScript. She translated complex CDSCO, IVD, and SaMD compliance roadmaps into a beautiful, high-converting digital experience.",
+    "verified": true,
+    "avatarColor": "#3b82f6"
+  },
+  {
+    "id": "rev-1",
+    "name": "Aarav Sharma",
+    "role": "Product Lead",
+    "company": "FinScale Solutions",
+    "projectType": "Full Stack Web App",
+    "rating": 5,
+    "date": "2 weeks ago",
+    "message": "Meenal built our core customer portal with React and Spring Boot. Her architectural decisions and clean code made the product fast and incredibly easy to scale. Communication was top-tier throughout!",
+    "verified": true,
+    "avatarColor": "#ec4899"
+  },
+  {
+    "id": "rev-2",
+    "name": "Priya Nair",
+    "role": "Founder & CEO",
+    "company": "VividCraft Media",
+    "projectType": "UI Redesign & Frontend",
+    "rating": 5,
+    "date": "1 month ago",
+    "message": "The redesign transformed our conversion rates. Meenal took our clunky legacy site and crafted a modern, fluid experience with micro-interactions that our clients constantly praise.",
+    "verified": true,
+    "avatarColor": "#10b981"
+  },
+  {
+    "id": "rev-3",
+    "name": "David Miller",
+    "role": "Engineering Manager",
+    "company": "CloudNest Technologies",
+    "projectType": "DevOps & Cloud Pipeline",
+    "rating": 5,
+    "date": "2 months ago",
+    "message": "Outstanding grasp of Docker, Kubernetes, and automated deployment pipelines. Delivered robust, clean implementations ahead of schedule with zero regressions. An absolute pleasure to collaborate with.",
+    "verified": true,
+    "avatarColor": "#f59e0b"
+  }
+]

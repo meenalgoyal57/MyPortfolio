@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://meenal.dev/sitemap.xml
