@@ -6,6 +6,7 @@ import {
 } from 'lucide-react';
 import SectionHeading from '../components/SectionHeading';
 import MagneticButton from '../components/MagneticButton';
+import { apiUrl } from '../utils/api';
 
 const FALLBACK_REVIEWS = [
   {
@@ -90,7 +91,7 @@ export default function Reviews() {
 
   // Fetch live reviews from backend
   useEffect(() => {
-    fetch('/api/reviews')
+    fetch(apiUrl('/api/reviews'))
       .then((res) => res.json())
       .then((data) => {
         if (data && data.reviews && data.reviews.length > 0) {
@@ -112,7 +113,7 @@ export default function Reviews() {
     setSubmitError('');
 
     try {
-      const res = await fetch('/api/reviews', {
+      const res = await fetch(apiUrl('/api/reviews'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),

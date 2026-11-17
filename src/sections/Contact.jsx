@@ -7,6 +7,7 @@ import {
 import SectionHeading from '../components/SectionHeading';
 import MagneticButton from '../components/MagneticButton';
 import { trackLeadSubmission, trackContactClick } from '../utils/analytics';
+import { apiUrl } from '../utils/api';
 
 const contactInfo = [
   {
@@ -58,7 +59,7 @@ export default function Contact() {
     setStatusMsg('');
 
     try {
-      const res = await fetch('/api/contact', {
+      const res = await fetch(apiUrl('/api/contact'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
