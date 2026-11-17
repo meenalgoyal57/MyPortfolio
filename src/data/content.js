@@ -120,3 +120,34 @@ export const contactDetails = {
   linkedin: 'https://linkedin.com/in/meenal-goyal',
   github: 'https://github.com/meenalgoyal57',
 };
+
+export const experiences = [
+  {
+    period: 'JUL 2026 — PRESENT',
+    company: 'Expandimo Technologies',
+    role: 'Full Stack Developer',
+    type: 'Full-time',
+    isCurrent: true,
+    desc: 'Architecting and engineering modern responsive web platforms, scalable RESTful APIs, and performant backend services. Collaborating across the complete software delivery cycle from system architecture and state management to cloud deployment and Core Web Vitals optimization.',
+    skills: ['React', 'Next.js', 'Node.js', 'TypeScript', 'REST APIs', 'Cloud Architecture'],
+  },
+  {
+    period: 'JAN 2026 — JUL 2026',
+    company: 'TestingXperts',
+    role: 'Software Engineer — QA & Test Automation',
+    type: 'Internship / Associate',
+    isCurrent: false,
+    desc: 'Designed, implemented, and executed automated test suites and end-to-end quality assurance pipelines for enterprise web applications. Executed functional, integration, regression, and API testing to detect vulnerabilities early and guarantee rock-solid system stability.',
+    skills: ['QA Automation', 'API Testing', 'Selenium / Cypress', 'Regression Testing', 'Bug Tracking', 'CI/CD Pipelines'],
+  },
+  {
+    period: 'JUL 2025 — DEC 2025',
+    company: 'Infosys Springboard',
+    role: 'Software Engineering Trainee',
+    type: 'Certification Trainee',
+    isCurrent: false,
+    desc: 'Completed specialized enterprise software engineering curriculum covering full-stack web architectures, object-oriented design in Java, Spring Boot microservices, relational database schema design, and modern frontend development with agile methodologies.',
+    skills: ['Java', 'Spring Boot', 'React', 'SQL & Databases', 'Data Structures', 'Agile / Scrum'],
+  },
+];
+
